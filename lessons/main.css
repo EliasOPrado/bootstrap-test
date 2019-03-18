@@ -1,0 +1,53 @@
+/*--------------------------------------------------first section*/
+.jumbo-header {
+    background-image: url("https://images.pexels.com/photos/2019059/pexels-photo-2019059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    margin-bottom: 0;
+    border-radius: 0%;
+}
+
+.jumbotron h1,
+.jumbotron h3 {
+    text-align: center;
+    padding-top: 15%;
+    margin: 0, 0, 0, 0;
+}
+
+/*--------------------------------------------------second section*/
+
+/*------------------testimonial sub-section*/
+
+.second-section .img-text {
+    padding: 0 0;
+}
+
+/*------------------video sub-section*/
+
+.video-container {
+    /*code-source: https://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/*/
+    background: #466368;
+    background: linear-gradient(to right bottom, #648880, #293f50);
+}
+
+.row .col-video {
+    display: center;
+}
+
+ iframe {
+    padding-bottom: 20px;
+}
+
+/*------------------Subscription sub-section*/
+
+.sub-container{
+    background: rgba(255,255,255,1);
+}
+/*--------------------------------------------------sfooter section*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
